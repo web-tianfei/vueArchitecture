@@ -1,0 +1,38 @@
+{
+  "name": "gfplatform",
+  "version": "1.0.0",
+  "description": "高分中国2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.4.205:7990/scm/pro/gfplatform.git"
+  },
+  "author": "田飞飞",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^13.5.0",
+    "vue-style-loader": "^3.0.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "vue": "^2.5.9",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.9"
+  }
+}
